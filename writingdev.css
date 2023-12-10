@@ -56,8 +56,9 @@ body{
 
 /* Categories */
 .categories {
-    display: inline-block;
+    display: flex;
     background: linear-gradient(270deg, #232830 0.01%, rgba(35, 40, 48, 0) 87.5%);
+    margin-top: 100px;
 }
 .categories-icon img{
     height: 24px;
@@ -67,7 +68,7 @@ body{
  
 .categories-link a{
     font-family: Recursive, sans-serif;
-    margin-left: 15px;
+    margin-left: 50px;
     text-decoration: none;
     font-size: 24px;
     color: #909090;
@@ -87,6 +88,7 @@ body{
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 20px;
+    margin-top: 100px;
 }
 .group{
     border-radius: 22px;
@@ -116,15 +118,24 @@ body{
 /* Pagination */
 .pagination a{
     font-family: Recursive, sans-serif;
-    margin-left: 15px;
+    padding: 20px 25px;
     text-decoration: none;
     font-size: 25px;
-    color: #909090;
 }
 
 .pagination {
+    margin-top: 50px;
     width: 100%;
     text-align: center;
     display: inline-block;
+}
+
+.number, .previous-next {
+    color: #909090;
+}
+
+.number-active {
+    color: #FF7575;
+    border-top: 3px solid #FF7575;
 }
 /* End of Pagination */
