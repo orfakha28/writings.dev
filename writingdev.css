@@ -1,18 +1,59 @@
 body{
     background-color: #232830;
     ;
+    padding: 3% 10%;
 }
 
+/* Navigation */
 .nav {
     color: #fff;
     font-family: Poppins, sans-serif;
+    width: 100%;
 }
 
 .nav a{
     color: #fff;
     text-decoration: none;
+    font-size: 24px;
+    margin: 0px 0px 0px 20px ;
+}
+
+.nav-right {
+    float: right;
 }
 
 .home {
+    float: left;
     font-size: 30px;
+}
+/* End of Navigation */
+
+/* Header */
+.logo img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.profile{
+    margin-top: 150px;
+    width: 100%;
+}
+.tagline{
+    margin-top: 30px;
+    font-family: Recursive, sans-serif;
+    font-size: 71px;
+    text-align: center;
+    color: #FF7575;
+}
+.description{
+    text-align: center;
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    font-size: 29px;
+    margin-top: 25px;
+}
+/* End of Header */
+
+.caption {
+    
 }
