@@ -64,6 +64,7 @@ body{
     background: linear-gradient(270deg, #232830 0.01%, rgba(35, 40, 48, 0) 87.5%);
     margin-top: 100px;
 }
+
 .categories-icon img{
     height: 24px;
     width: 24px;
@@ -79,7 +80,7 @@ body{
 }
 
 .categories-link a:hover{
-    color: #FF7575;
+    color: #FF7575; 
     text-decoration: underline;
 }
 /* End of Categories */
